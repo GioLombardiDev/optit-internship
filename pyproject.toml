@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]      # tell pip how to build
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heat_forecast"
+version = "0.1.0"
+
+[tool.setuptools]
+package-dir = {"" = "src"}                  # where the code lives
+packages = ["heat_forecast"]   

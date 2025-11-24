@@ -1,0 +1,56 @@
+# --- data, models, results, logs, notes (ignored but kept visible) ---
+data/
+models/
+results/
+logs/
+notes/
+
+# keep empty folder placeholders
+!data/.keep
+!models/.keep
+!results/.keep
+!logs/.keep
+
+# --- notebook & tool caches ---
+.ipynb_checkpoints/
+notebooks/.ruff_cache/
+.ruff_cache/
+
+# --- Python cache/build artifacts ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+
+# --- virtual environments / local configs ---
+.venv/
+venv/
+.env/
+.env.*
+chronos-venv/
+
+# --- large or common data files (safety net) ---
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# --- OS / editor files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
